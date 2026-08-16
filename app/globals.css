@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@theme {
+  /* Brand palette — verified from the brandbook and prototype (do not "improve" without
+     checking WCAG contrast again: gold CTAs must keep navy text, never white). */
+  --color-navy: #0a2a5e;
+  --color-gold: #c9a227;
+  --color-gold-hover: #b8931f;
+  --color-ink: #2c2f36;
+  --color-muted: #5b6478;
+  --color-border: #e3e6ec;
+  --color-border-input: #c9ceda;
+  --color-surface: #ffffff;
+  --color-surface-alt: #f4f5f7;
+  --color-error: #a3261f;
+
+  --font-body: var(--font-onest), system-ui, sans-serif;
+  --font-heading: var(--font-source-serif), Georgia, serif;
+
+  /* The prototype's exact mobile/desktop cutoff — not a default Tailwind breakpoint. */
+  --breakpoint-nav: 940px;
+}
+
+/*
+  Everything below is wrapped in Tailwind's own "base" layer. Unlayered CSS
+  has higher cascade priority than ANY @layer, regardless of specificity —
+  an unlayered `h1 { color: navy }` would silently beat every `text-white`
+  utility class site-wide (this was a real bug caught in visual QA: hero
+  headings rendered near-invisible navy-on-navy instead of white).
+*/
+@layer base {
+  :root {
+    --background: var(--color-surface);
+    --foreground: var(--color-ink);
+  }
+
+  body {
+    background: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-body);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-heading);
+  }
+
+  /* Keyboard focus must be visible everywhere per WCAG 2.1 AA (NFR-05 / PRD FR-01.9). */
+  :focus-visible {
+    outline: 2px solid var(--color-navy);
+    outline-offset: 2px;
+  }
+}

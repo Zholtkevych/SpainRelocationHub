@@ -1,0 +1,407 @@
+{
+  "seo": {
+    "title": "Spain Relocation Hub — Traslado a España: vivienda, residencia y empresa",
+    "description": "Trasládate a España sin sorpresas. Vivienda, residencia, empresa, seguros y adaptación diaria — todo en un mismo proceso, en tu idioma."
+  },
+  "nav": {
+    "property": "Vivienda",
+    "residency": "Residencia",
+    "vehicles": "Vehículos",
+    "business": "Empresa",
+    "insurance": "Seguros",
+    "adaptation": "Adaptación",
+    "how": "Cómo trabajamos",
+    "faq": "Preguntas"
+  },
+  "ui": {
+    "consult": "Solicitar una consulta"
+  },
+  "hero": {
+    "eyebrow": "Vivienda · Residencia · Empresa",
+    "h1": "Traslado completo a España",
+    "sub": "Hacemos que su traslado a España sea tranquilo y claro. Vivienda, residencia, seguros, vehículos y adaptación diaria, todo en un mismo lugar.",
+    "cta1": "Solicitar una consulta",
+    "points": [
+      "Acompañamiento en cada etapa del traslado",
+      "Ahorro de tiempo y de costes",
+      "Trabajo con partners verificados",
+      "Atención en ucraniano, español y ruso"
+    ]
+  },
+  "property": {
+    "eyebrow": "Vivienda",
+    "h2": "Vivienda en España",
+    "lead": "Los errores más caros de un traslado ocurren aquí y ocurren pronto: un contrato de alquiler firmado antes de conocer la vía de residencia, o una compra cerrada sin verificar la titularidad.",
+    "items": [
+      {
+        "t": "Alquiler",
+        "d": "Búsqueda y gestión de vivienda: pisos, casas y apartamentos con servicios."
+      },
+      {
+        "t": "Compra",
+        "d": "Selección de inmuebles para residencia, para inversión y para uso empresarial."
+      },
+      {
+        "t": "Asesoría jurídica",
+        "d": "Supervisión de la operación, verificación del inmueble y de la titularidad, y gestión documental."
+      }
+    ]
+  },
+  "residency": {
+    "eyebrow": "Residencia",
+    "h2": "Permisos de residencia, legalización y asesoría contable",
+    "lead": "La vía por la que se solicita determina casi todo lo demás: qué documentos hacen falta, qué ingresos hay que acreditar y si la familia queda incluida. Asesoramos sobre la elección de la vía y gestionamos el procedimiento con abogados colegiados.",
+    "items": [
+      {
+        "t": "Elección de la vía",
+        "d": "Evaluación de qué vía de residencia encaja con sus ingresos, su familia y sus plazos."
+      },
+      {
+        "t": "Gestión del expediente",
+        "d": "Preparación, presentación y seguimiento con nuestros partners colegiados."
+      },
+      {
+        "t": "Legalización de documentos",
+        "d": "Apostilla, traducción jurada y reconocimiento de documentos emitidos fuera de España."
+      },
+      {
+        "t": "Contabilidad e impuestos",
+        "d": "Alta en la Agencia Tributaria y cumplimiento continuo una vez obtenida la residencia."
+      }
+    ],
+    "note": "El seguro que cumple los requisitos del expediente de residencia es una dependencia bloqueante que la mayoría descubre tarde."
+  },
+  "vehicles": {
+    "eyebrow": "Vehículos",
+    "h2": "Vehículos en España",
+    "items": [
+      {
+        "t": "Alquiler de vehículo",
+        "d": "Gestión de alquiler de corta y larga duración, incluida la documentación que suele exigirse a no residentes."
+      },
+      {
+        "t": "Compra de vehículo",
+        "d": "Selección del vehículo, verificación de historial y estado, y matriculación y documentación."
+      }
+    ]
+  },
+  "business": {
+    "eyebrow": "Empresa",
+    "h2": "Trasladar su empresa a España",
+    "lead": "Constituir la sociedad es la parte sencilla. El local, el alta fiscal y el cumplimiento continuo son donde los propietarios extranjeros pierden tiempo.",
+    "items": [
+      {
+        "n": "01",
+        "t": "Plan de negocio",
+        "d": "Elaborado según el estándar que esperan las instituciones y los bancos españoles."
+      },
+      {
+        "n": "02",
+        "t": "Subvenciones y ayudas",
+        "d": "Identificación y tramitación de programas autonómicos y estatales."
+      },
+      {
+        "n": "03",
+        "t": "Local comercial",
+        "d": "Selección y negociación del local adecuado a la actividad."
+      },
+      {
+        "n": "04",
+        "t": "Constitución de la sociedad",
+        "d": "Constitución, NIF y alta de la actividad."
+      },
+      {
+        "n": "05",
+        "t": "Contabilidad y cumplimiento",
+        "d": "Contabilidad, presentaciones y nóminas a través de nuestras asesorías partner."
+      }
+    ]
+  },
+  "insurance": {
+    "eyebrow": "Seguros",
+    "h2": "Seguros",
+    "items": [
+      {
+        "t": "Seguro médico",
+        "d": "Cobertura familiar con compañías que aceptan a recién llegados."
+      },
+      {
+        "t": "Seguro de vehículo",
+        "d": "Pólizas para vehículos propios y de alquiler de larga duración."
+      },
+      {
+        "t": "Seguro de hogar",
+        "d": "Cobertura para vivienda propia y alquilada, incluidos los requisitos del arrendador."
+      },
+      {
+        "t": "Póliza válida para residencia",
+        "d": "Pólizas que cumplen las condiciones del expediente de residencia."
+      }
+    ]
+  },
+  "adaptation": {
+    "eyebrow": "Adaptación",
+    "h2": "Instalarse en España",
+    "lead": "Para las familias, la plaza escolar suele ser la decisión de la que depende todo el traslado. Aquí se trata como un servicio propio, no como un añadido.",
+    "items": [
+      {
+        "t": "Colegios y escuelas infantiles",
+        "d": "Incluida la incorporación a mitad de curso, posible con más frecuencia de lo que se supone."
+      },
+      {
+        "t": "Clubes deportivos y actividades",
+        "d": "Búsqueda de actividades para los niños en su zona."
+      },
+      {
+        "t": "Cursos de idioma",
+        "d": "Cursos de español para adultos y niños, según nivel y horario."
+      },
+      {
+        "t": "Canje del permiso de conducir",
+        "d": "Canje del permiso extranjero o preparación cuando el canje no es posible."
+      },
+      {
+        "t": "Homologación de títulos",
+        "d": "Homologación de titulaciones para estudiar y ejercer."
+      },
+      {
+        "t": "Acompañamiento con intérprete",
+        "d": "Acompañamiento a citas en las que la documentación es determinante."
+      }
+    ]
+  },
+  "why": {
+    "h2": "Por qué trabajan con nosotros",
+    "items": [
+      {
+        "t": "Experiencia de principio a fin",
+        "d": "Toda la secuencia, no un servicio aislado."
+      },
+      {
+        "t": "Partners verificados",
+        "d": "Abogados, agentes y correduría con los que hemos trabajado y verificado."
+      },
+      {
+        "t": "Acompañamiento continuo",
+        "d": "Un único interlocutor desde la primera llamada hasta el cierre."
+      },
+      {
+        "t": "Ahorro de tiempo",
+        "d": "El orden de los pasos es conocido, así que nada se hace dos veces."
+      },
+      {
+        "t": "Enfoque individual",
+        "d": "Cada caso difiere en ingresos, familia y plazos."
+      }
+    ]
+  },
+  "how": {
+    "h2": "Cómo trabajamos",
+    "lead": "Cuatro pasos desde su primer mensaje hasta el final del traslado.",
+    "steps": [
+      {
+        "n": "01",
+        "t": "Consulta inicial",
+        "d": "Envía el formulario o abre una conversación de WhatsApp."
+      },
+      {
+        "n": "02",
+        "t": "Consulta",
+        "d": "Un especialista concreta la situación, los plazos y las prioridades."
+      },
+      {
+        "n": "03",
+        "t": "Diseño de la solución",
+        "d": "Se elabora un plan y un conjunto de opciones en los servicios pertinentes."
+      },
+      {
+        "n": "04",
+        "t": "Ejecución",
+        "d": "Le acompañamos hasta la finalización del traslado."
+      }
+    ]
+  },
+  "faq": {
+    "h2": "Preguntas frecuentes",
+    "items": [
+      {
+        "q": "¿Cuánto dura el proceso de traslado?",
+        "a": "Depende de la vía de residencia y de desde dónde se solicita. Un expediente sencillo con la documentación completa suele avanzar en semanas, no en meses; la legalización de documentos fuera de España suele ser el paso más largo. En la consulta le damos un calendario realista, antes de cualquier compromiso."
+      },
+      {
+        "q": "¿Cuánto cuesta el servicio y cómo se factura?",
+        "a": "Los honorarios dependen de los servicios necesarios y de la complejidad del caso, por eso presupuestamos tras la consulta en lugar de publicar una tarifa que no le sería aplicable. La consulta no conlleva obligación y recibe el alcance y el importe por escrito antes de empezar."
+      },
+      {
+        "q": "¿Pueden ayudarme si ya estoy en España?",
+        "a": "Sí. Una parte importante de nuestro trabajo es con clientes ya llegados: cambiar de estatus, regularizar documentación, cambiar de vivienda o escolarizar a los hijos."
+      },
+      {
+        "q": "¿Qué vía de residencia me corresponde?",
+        "a": "Es lo primero que determinamos. La vía se deriva de su fuente de ingresos, su situación familiar y sus plazos, y equivocarse es el error más caro de un traslado. Evaluamos las opciones y gestionamos el expediente con abogados colegiados."
+      },
+      {
+        "q": "¿Necesito hablar español?",
+        "a": "No. Trabajamos en ucraniano, español, inglés y ruso, y acompañamos a los clientes a las citas en las que la documentación es determinante."
+      },
+      {
+        "q": "¿Pueden gestionar plaza escolar a mitad de curso?",
+        "a": "Sí, y es posible con más frecuencia de lo que se supone. La disponibilidad varía por municipio y por curso, así que conviene preguntar pronto en lugar de esperar al siguiente periodo de admisión."
+      },
+      {
+        "q": "¿Trabajan con personas con protección temporal?",
+        "a": "Sí. Asesoramos sobre cómo pasar de la protección temporal a un estatus estable de larga duración y gestionamos el procedimiento."
+      },
+      {
+        "q": "¿Qué ocurre si deniegan mi solicitud?",
+        "a": "Le decimos con franqueza cuáles son las perspectivas antes de presentar, porque ningún asesor controla una resolución administrativa. Si hay denegación, revisamos los motivos y asesoramos sobre el recurso o sobre una vía alternativa."
+      }
+    ]
+  },
+  "form": {
+    "step1Title": "Solicitar una consulta",
+    "step1Lead": "Dos minutos. Suficiente para que preparemos bien la primera llamada.",
+    "name": "Nombre",
+    "namePh": "Su nombre",
+    "phone": "Teléfono",
+    "services": "Servicios de interés",
+    "consent": "Consiento el tratamiento de mis datos personales conforme a la política de privacidad.",
+    "submit1": "Continuar",
+    "responseNote": "Respondemos el mismo día laborable.",
+    "reqName": "Indique su nombre",
+    "reqPhone": "Indique un número de teléfono",
+    "reqEmail": "Introduzca una dirección de correo válida",
+    "reqServices": "Seleccione al menos un servicio",
+    "reqConsent": "Sin su consentimiento no podemos contactarle",
+    "savedNote": "Hemos recibido su solicitud. Puede detenerse aquí: las preguntas siguientes son opcionales.",
+    "step2Title": "Algunos datos opcionales",
+    "step2Lead": "Nos ayudan a asignar su caso al especialista adecuado y a preparar la llamada.",
+    "country": "País de residencia actual",
+    "commLang": "Idioma de comunicación",
+    "income": "Fuente de ingresos actual",
+    "incomeWhy": "Opcional. Las vías de residencia difieren mucho según el tipo de ingresos, así que esto acorta la primera llamada.",
+    "timeline": "Plazo previsto",
+    "people": "Número de personas que se trasladan",
+    "submit2": "Enviar datos",
+    "skip": "Omitir este paso",
+    "doneTitle": "Gracias, hemos recibido su solicitud.",
+    "doneLead": "Le enviamos una confirmación por correo. Un especialista le contactará el mismo día laborable.",
+    "doneUrgent": "Si su situación es urgente, escríbanos por WhatsApp y lo atenderemos antes.",
+    "doneWa": "Abrir WhatsApp",
+    "another": "Enviar otra solicitud",
+    "incomeOptions": [
+      {
+        "v": "",
+        "l": "Prefiero no indicarlo"
+      },
+      {
+        "v": "employment",
+        "l": "Trabajo por cuenta ajena"
+      },
+      {
+        "v": "remote",
+        "l": "Trabajo remoto para empresa extranjera"
+      },
+      {
+        "v": "business",
+        "l": "Negocio propio"
+      },
+      {
+        "v": "pension",
+        "l": "Pensión"
+      },
+      {
+        "v": "savings",
+        "l": "Ahorros o inversiones"
+      }
+    ],
+    "timelineOptions": [
+      {
+        "v": "",
+        "l": "Sin decidir"
+      },
+      {
+        "v": "now",
+        "l": "Ya estoy en España"
+      },
+      {
+        "v": "3m",
+        "l": "En 3 meses"
+      },
+      {
+        "v": "6m",
+        "l": "De 3 a 6 meses"
+      },
+      {
+        "v": "12m",
+        "l": "De 6 a 12 meses"
+      },
+      {
+        "v": "later",
+        "l": "Me informo para más adelante"
+      }
+    ],
+    "serviceLabels": [
+      "Vivienda",
+      "Residencia",
+      "Vehículos",
+      "Empresa",
+      "Seguros",
+      "Adaptación"
+    ]
+  },
+  "contact": {
+    "h2": "Hable con un especialista",
+    "lead": "Envíe el formulario y respondemos el mismo día laborable, o escríbanos por WhatsApp si es urgente.",
+    "phone": "Teléfono"
+  },
+  "footer": {
+    "blurb": "El traslado a España gestionado como una única secuencia: vivienda, residencia, seguros, vehículos, empresa y adaptación diaria.",
+    "services": "Servicios",
+    "contactT": "Contacto",
+    "legalT": "Legal",
+    "privacy": "Política de privacidad",
+    "cookies": "Política de cookies",
+    "notice": "Aviso legal",
+    "rights": "Spain Relocation Hub · Madrid, España"
+  },
+  "cookies": {
+    "text": "Usamos cookies para medir el uso del sitio. Las cookies no esenciales solo se activan si las acepta.",
+    "accept": "Aceptar",
+    "reject": "Solo esenciales"
+  },
+  "whatsapp": {
+    "greeting": "Hola, me gustaría una consulta sobre el traslado a España",
+    "serviceLabel": "Servicio"
+  },
+  "legal": {
+    "controllerEntity": "{{PLACEHOLDER: nombre de la entidad responsable del tratamiento, número de registro y domicilio social}}",
+    "responseCommitment": "{{PLACEHOLDER: compromiso de tiempo de respuesta confirmado}}",
+    "retentionPeriod": "{{PLACEHOLDER: periodo de conservación de los datos de las consultas}}",
+    "dpoContact": "{{PLACEHOLDER: contacto de protección de datos / DPO}}",
+    "intro": "Esta página explica cómo Spain Relocation Hub recopila, utiliza y protege tus datos personales cuando utilizas este sitio web o envías una consulta.",
+    "privacyTitle": "Aviso de privacidad",
+    "cookiesTitle": "Política de cookies",
+    "legalTitle": "Aviso legal",
+    "cookiesIntro": "Utilizamos cookies para operar este sitio y, cuando lo consientes, para medir su uso. Puedes aceptar o rechazar las cookies no esenciales en cualquier momento.",
+    "legalIntro": "Datos de identificación de la empresa Spain Relocation Hub, conforme a lo exigido a los sitios web comerciales que operan en España.",
+    "dataController": "Responsable del tratamiento",
+    "whatWeCollect": "Qué datos recopilamos y por qué",
+    "whatWeCollectBody": "Cuando envías el formulario de consulta o te pones en contacto con nosotros directamente, recopilamos los datos que nos proporcionas: nombre, número de teléfono, dirección de correo electrónico, los servicios que te interesan y, si decides compartirlos, datos como tu país de residencia, fuente de ingresos, plazos y el número de personas que se trasladan. Tratamos estos datos para responder a tu consulta y preparar la consulta, sobre la base de tu consentimiento.",
+    "retention": "Cuánto tiempo conservamos tus datos",
+    "rights": "Tus derechos",
+    "rightsBody": "En virtud del RGPD, tienes derecho a acceder, rectificar, suprimir o limitar el tratamiento de tus datos personales, a oponerte al tratamiento y a solicitar la portabilidad de tus datos a otro proveedor. También tienes derecho a retirar tu consentimiento en cualquier momento y a presentar una reclamación ante tu autoridad de protección de datos.",
+    "contact": "Contacto",
+    "cookiesWhat": "Para qué sirven las cookies",
+    "cookiesWhatBody": "Las cookies son pequeños archivos almacenados en tu dispositivo. Utilizamos cookies esenciales para el funcionamiento del sitio (como recordar el idioma seleccionado) y, solo con tu consentimiento, cookies no esenciales para medir el uso del sitio.",
+    "cookiesEssential": "Cookies esenciales",
+    "cookiesEssentialBody": "Son necesarias para que el sitio funcione, por ejemplo, para recordar el idioma seleccionado y tu decisión sobre las cookies. No se pueden desactivar.",
+    "cookiesAnalytics": "Cookies analíticas",
+    "cookiesAnalyticsBody": "Con tu consentimiento, podemos utilizar cookies analíticas para entender cómo los visitantes utilizan el sitio y así mejorarlo. No se activa ninguna cookie analítica hasta que la aceptas.",
+    "cookiesControl": "Gestionar tu elección",
+    "cookiesControlBody": "Puedes aceptar o rechazar las cookies no esenciales desde el aviso que aparece en tu primera visita, y cambiar tu elección en cualquier momento borrando las cookies de este sitio en tu navegador.",
+    "legalCompany": "Datos de la empresa",
+    "legalActivity": "Actividad",
+    "legalActivityBody": "Spain Relocation Hub presta servicios de asesoramiento y coordinación de traslados, conectando a los clientes con una red de socios verificados para vivienda, residencia y legalización, vehículos, constitución de empresas, seguros y servicios de adaptación práctica en España."
+  }
+}

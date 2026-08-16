@@ -1,0 +1,407 @@
+{
+  "seo": {
+    "title": "Spain Relocation Hub — Property, Residency & Business Set-up in Spain",
+    "description": "Move to Spain without the guesswork. Property, residency permits, business set-up, insurance and everyday adaptation — handled as one sequence, in English, Ukrainian, Russian or Spanish."
+  },
+  "nav": {
+    "property": "Property",
+    "residency": "Residency",
+    "vehicles": "Vehicles",
+    "business": "Business",
+    "insurance": "Insurance",
+    "adaptation": "Adaptation",
+    "how": "How we work",
+    "faq": "FAQ"
+  },
+  "ui": {
+    "consult": "Request a consultation"
+  },
+  "hero": {
+    "eyebrow": "Property · Residency · Business",
+    "h1": "Complete relocation to Spain",
+    "sub": "We make your move to Spain calm and clear. Property, residency, insurance, vehicles, and everyday adaptation — all in one place.",
+    "cta1": "Request a consultation",
+    "points": [
+      "Support at every stage of the move",
+      "Savings in both time and cost",
+      "Work conducted through verified partners",
+      "Assistance in Ukrainian, Spanish, and Russian"
+    ]
+  },
+  "property": {
+    "eyebrow": "Property",
+    "h2": "Property in Spain",
+    "lead": "Most costly mistakes in a move happen here, and they happen early — a lease signed before the residency route is known, or a purchase completed without a title check.",
+    "items": [
+      {
+        "t": "Rental",
+        "d": "Assistance finding and securing housing: apartments, houses, and serviced apartments."
+      },
+      {
+        "t": "Purchase",
+        "d": "Property selection for personal residence, for investment, and for business use."
+      },
+      {
+        "t": "Legal support",
+        "d": "Transaction supervision, property and title verification, and documentation handling."
+      }
+    ]
+  },
+  "residency": {
+    "eyebrow": "Residency",
+    "h2": "Residency permits, legalisation, and accounting support",
+    "lead": "The route you apply under determines almost everything that follows: what documents you need, what income you must show, and whether your family is included. We advise on route selection and manage the process through licensed legal partners.",
+    "items": [
+      {
+        "t": "Route selection",
+        "d": "An assessment of which residency route fits your income, family situation, and timeline."
+      },
+      {
+        "t": "Application management",
+        "d": "Preparation, submission, and tracking of the application, with our licensed partners."
+      },
+      {
+        "t": "Legalisation of documents",
+        "d": "Apostille, sworn translation, and recognition of documents issued outside Spain."
+      },
+      {
+        "t": "Accounting and tax",
+        "d": "Registration with the tax authorities and ongoing compliance once you are resident."
+      }
+    ],
+    "note": "Insurance that meets residency application requirements is a blocking dependency most applicants discover too late."
+  },
+  "vehicles": {
+    "eyebrow": "Vehicles",
+    "h2": "Vehicles in Spain",
+    "items": [
+      {
+        "t": "Vehicle rental",
+        "d": "Short and long-term rental arrangement, including the paperwork non-residents are usually asked for."
+      },
+      {
+        "t": "Vehicle purchase",
+        "d": "Vehicle selection, history and condition verification, and registration and documentation."
+      }
+    ]
+  },
+  "business": {
+    "eyebrow": "Business",
+    "h2": "Relocating your business to Spain",
+    "lead": "Company formation is the straightforward part. Premises, tax registration, and ongoing compliance are where foreign owners lose time.",
+    "items": [
+      {
+        "n": "01",
+        "t": "Business plan development",
+        "d": "Prepared to the standard Spanish institutions and banks expect."
+      },
+      {
+        "n": "02",
+        "t": "Grants and public funding",
+        "d": "Support in identifying and applying for regional and national schemes."
+      },
+      {
+        "n": "03",
+        "t": "Commercial property",
+        "d": "Selection and negotiation of premises appropriate to the activity."
+      },
+      {
+        "n": "04",
+        "t": "Company registration",
+        "d": "Incorporation, tax identification, and registration of the activity."
+      },
+      {
+        "n": "05",
+        "t": "Accounting and compliance",
+        "d": "Ongoing bookkeeping, filings, and payroll through our partner firms."
+      }
+    ]
+  },
+  "insurance": {
+    "eyebrow": "Insurance",
+    "h2": "Insurance",
+    "items": [
+      {
+        "t": "Medical insurance",
+        "d": "Cover for the family, arranged with providers that accept new arrivals."
+      },
+      {
+        "t": "Vehicle insurance",
+        "d": "Policies for owned and long-term rented vehicles."
+      },
+      {
+        "t": "Property insurance",
+        "d": "Cover for owned and rented homes, including landlord requirements."
+      },
+      {
+        "t": "Residency-qualifying cover",
+        "d": "Policies that satisfy the conditions of a residency application."
+      }
+    ]
+  },
+  "adaptation": {
+    "eyebrow": "Adaptation",
+    "h2": "Settling into life in Spain",
+    "lead": "For families, school placement is often the decision the whole move depends on. It is handled here as a service, not as an afterthought.",
+    "items": [
+      {
+        "t": "School and kindergarten placement",
+        "d": "Including mid-year placement, which is possible more often than families assume."
+      },
+      {
+        "t": "Sports clubs and activities",
+        "d": "Finding clubs and activities for children in your area."
+      },
+      {
+        "t": "Language courses",
+        "d": "Spanish courses for adults and children, matched to level and schedule."
+      },
+      {
+        "t": "Driving licence exchange",
+        "d": "Exchange of a foreign licence, or preparation where exchange is not available."
+      },
+      {
+        "t": "Diploma recognition",
+        "d": "Homologation of qualifications for study and professional practice."
+      },
+      {
+        "t": "Interpreter accompaniment",
+        "d": "Accompaniment to appointments where the paperwork matters."
+      }
+    ]
+  },
+  "why": {
+    "h2": "Why clients work with us",
+    "items": [
+      {
+        "t": "End-to-end experience",
+        "d": "The whole sequence, not one service in isolation."
+      },
+      {
+        "t": "Verified partners",
+        "d": "Lawyers, agents, and brokers we have worked with and checked."
+      },
+      {
+        "t": "Support at every stage",
+        "d": "One point of contact from the first call to completion."
+      },
+      {
+        "t": "Time saved",
+        "d": "The order of operations is known, so nothing is done twice."
+      },
+      {
+        "t": "Individual approach",
+        "d": "Every case differs on income, family, and timing."
+      }
+    ]
+  },
+  "how": {
+    "h2": "How we work",
+    "lead": "Four steps from your first message to the end of the move.",
+    "steps": [
+      {
+        "n": "01",
+        "t": "Enquiry",
+        "d": "You submit the form or open a WhatsApp conversation."
+      },
+      {
+        "n": "02",
+        "t": "Consultation",
+        "d": "A specialist clarifies the situation, timing, and priorities."
+      },
+      {
+        "n": "03",
+        "t": "Solution design",
+        "d": "A plan and a set of options are assembled across the relevant services."
+      },
+      {
+        "n": "04",
+        "t": "Execution",
+        "d": "We accompany you through to completion of the move."
+      }
+    ]
+  },
+  "faq": {
+    "h2": "Frequently asked questions",
+    "items": [
+      {
+        "q": "How long does the relocation process take?",
+        "a": "It depends on the residency route and on where you are applying from. A straightforward application prepared with complete documents typically moves in weeks rather than months; document legalisation from outside Spain is usually the longest step. We give you a realistic schedule at the consultation, before you commit to anything."
+      },
+      {
+        "q": "What does your service cost, and how is it charged?",
+        "a": "Fees depend on which services you need and on the complexity of your case, so we quote after the consultation rather than publishing a price list that would not apply to you. The consultation itself carries no obligation, and you receive the scope and the fee in writing before any work begins."
+      },
+      {
+        "q": "Can you help if I am already in Spain?",
+        "a": "Yes. A significant part of our work is with clients who have already arrived — converting a status, regularising documents, changing housing, or placing children in school."
+      },
+      {
+        "q": "Which residency route is right for my situation?",
+        "a": "That is the first thing we establish. The route follows from your source of income, your family situation, and your timeline, and choosing the wrong one is the most expensive mistake available in a relocation. We assess the options and manage the application through licensed legal partners."
+      },
+      {
+        "q": "Do I need to speak Spanish to work with you?",
+        "a": "No. We work in Ukrainian, Spanish, English, and Russian, and we accompany clients to appointments where the paperwork matters."
+      },
+      {
+        "q": "Can you assist with school placement mid-academic-year?",
+        "a": "Yes, and it is possible more often than families assume. Availability varies by municipality and by year group, so it is worth asking early rather than waiting for the next intake."
+      },
+      {
+        "q": "Do you work with clients holding temporary protection status?",
+        "a": "Yes. We advise on how to move from temporary protection to a stable long-term status and manage the process."
+      },
+      {
+        "q": "What happens if my application is refused?",
+        "a": "We tell you honestly what the prospects are before you apply, because no advisor controls a government decision. If a refusal happens, we review the grounds and advise on appeal or on an alternative route."
+      }
+    ]
+  },
+  "form": {
+    "step1Title": "Request a consultation",
+    "step1Lead": "Two minutes. Enough for us to prepare properly before the first call.",
+    "name": "Name",
+    "namePh": "Your name",
+    "phone": "Phone",
+    "services": "Services of interest",
+    "consent": "I consent to the processing of my personal data in accordance with the privacy notice.",
+    "submit1": "Continue",
+    "responseNote": "We reply the same working day.",
+    "reqName": "Please enter your name",
+    "reqPhone": "Please enter a phone number",
+    "reqEmail": "Please enter a valid email address",
+    "reqServices": "Please select at least one service",
+    "reqConsent": "Consent is required before we can contact you",
+    "savedNote": "Your enquiry has been received. You can stop here — the questions below are optional.",
+    "step2Title": "A few optional details",
+    "step2Lead": "These help us route your case to the right specialist and prepare before we call.",
+    "country": "Country of current residence",
+    "commLang": "Preferred language of communication",
+    "income": "Current source of income",
+    "incomeWhy": "Optional. Residency routes differ substantially by income type, so this shortens the first call.",
+    "timeline": "Intended timeline",
+    "people": "Number of people relocating",
+    "submit2": "Send details",
+    "skip": "Skip this step",
+    "doneTitle": "Thank you — we have your enquiry.",
+    "doneLead": "A confirmation is on its way to your email. A specialist will contact you the same working day.",
+    "doneUrgent": "If your situation is time-critical, message us on WhatsApp and we will pick it up faster.",
+    "doneWa": "Open WhatsApp",
+    "another": "Submit another enquiry",
+    "incomeOptions": [
+      {
+        "v": "",
+        "l": "Prefer not to say"
+      },
+      {
+        "v": "employment",
+        "l": "Employment"
+      },
+      {
+        "v": "remote",
+        "l": "Remote work for a foreign employer"
+      },
+      {
+        "v": "business",
+        "l": "Own business"
+      },
+      {
+        "v": "pension",
+        "l": "Pension"
+      },
+      {
+        "v": "savings",
+        "l": "Savings or investments"
+      }
+    ],
+    "timelineOptions": [
+      {
+        "v": "",
+        "l": "Not decided"
+      },
+      {
+        "v": "now",
+        "l": "Already in Spain"
+      },
+      {
+        "v": "3m",
+        "l": "Within 3 months"
+      },
+      {
+        "v": "6m",
+        "l": "3 to 6 months"
+      },
+      {
+        "v": "12m",
+        "l": "6 to 12 months"
+      },
+      {
+        "v": "later",
+        "l": "Researching for later"
+      }
+    ],
+    "serviceLabels": [
+      "Property",
+      "Residency",
+      "Vehicles",
+      "Business",
+      "Insurance",
+      "Adaptation"
+    ]
+  },
+  "contact": {
+    "h2": "Talk to a specialist",
+    "lead": "Send the form and we reply the same working day, or message us on WhatsApp if it is urgent.",
+    "phone": "Phone"
+  },
+  "footer": {
+    "blurb": "Relocation to Spain handled as one sequence: property, residency, insurance, vehicles, business, and everyday adaptation.",
+    "services": "Services",
+    "contactT": "Contact",
+    "legalT": "Legal",
+    "privacy": "Privacy notice",
+    "cookies": "Cookie policy",
+    "notice": "Legal notice",
+    "rights": "Spain Relocation Hub · Madrid, Spain"
+  },
+  "cookies": {
+    "text": "We use cookies to measure how the site is used. Non-essential cookies are only set if you accept.",
+    "accept": "Accept",
+    "reject": "Essential only"
+  },
+  "whatsapp": {
+    "greeting": "Hello, I would like a consultation about relocating to Spain",
+    "serviceLabel": "Service"
+  },
+  "legal": {
+    "controllerEntity": "{{PLACEHOLDER: data controller legal entity name, registration number, and registered address}}",
+    "responseCommitment": "{{PLACEHOLDER: confirmed response-time commitment — the prototype copy said \"the same working day,\" which is unconfirmed per PDD §12.3}}",
+    "retentionPeriod": "{{PLACEHOLDER: enquiry data retention period}}",
+    "dpoContact": "{{PLACEHOLDER: data protection contact / DPO email if applicable}}",
+    "intro": "This page explains how Spain Relocation Hub collects, uses, and protects your personal data when you use this website or submit an enquiry.",
+    "privacyTitle": "Privacy notice",
+    "cookiesTitle": "Cookie policy",
+    "legalTitle": "Legal notice",
+    "cookiesIntro": "We use cookies to operate this site and, where you consent, to measure how it is used. You can accept or decline non-essential cookies at any time.",
+    "legalIntro": "Company identification details for Spain Relocation Hub, as required of commercial websites operating in Spain.",
+    "dataController": "Data controller",
+    "whatWeCollect": "What we collect and why",
+    "whatWeCollectBody": "When you submit the enquiry form or contact us directly, we collect the details you provide — name, phone number, email address, the services you are interested in, and, where you choose to share them, details such as your country of residence, income source, timeline, and the number of people relocating. We process this data to respond to your enquiry and to prepare for a consultation, on the basis of your consent.",
+    "retention": "How long we keep it",
+    "rights": "Your rights",
+    "rightsBody": "Under the GDPR you have the right to access, correct, delete, or restrict the processing of your personal data, to object to processing, and to request that your data be transferred to another provider. You also have the right to withdraw consent at any time and to lodge a complaint with your local data protection authority.",
+    "contact": "Contact",
+    "cookiesWhat": "What cookies do",
+    "cookiesWhatBody": "Cookies are small files stored on your device. We use essential cookies to operate the site (such as remembering your language choice) and, only with your consent, non-essential cookies to measure how the site is used.",
+    "cookiesEssential": "Essential cookies",
+    "cookiesEssentialBody": "These are required for the site to function — for example, remembering your selected language and your cookie consent choice. They cannot be disabled.",
+    "cookiesAnalytics": "Analytics cookies",
+    "cookiesAnalyticsBody": "With your consent, we may use analytics cookies to understand how visitors use the site, so we can improve it. No analytics cookies are set until you accept.",
+    "cookiesControl": "Managing your choice",
+    "cookiesControlBody": "You can accept or decline non-essential cookies from the banner shown on your first visit, and change your choice at any time by clearing your browser's cookies for this site.",
+    "legalCompany": "Company details",
+    "legalActivity": "Activity",
+    "legalActivityBody": "Spain Relocation Hub provides relocation advisory and coordination services, connecting clients with a network of vetted partners for property, residency and legalisation, vehicles, business set-up, insurance, and practical adaptation services in Spain."
+  }
+}
