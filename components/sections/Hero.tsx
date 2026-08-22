@@ -2,6 +2,12 @@ import { getTranslations } from "next-intl/server";
 import { SectionCta } from "@/components/sections/SectionCta";
 import { WhatsAppHeroLink } from "@/components/sections/WhatsAppHeroLink";
 import { siteConfig } from "@/lib/site-config";
+import { getSetting } from "@/lib/settings/store";
+import { sectionImageSettingKey } from "@/lib/settings/keys";
+import { photoBackgroundStyle } from "@/lib/media/background";
+
+const PLACEHOLDER_BACKGROUND =
+  "repeating-linear-gradient(135deg, #10336C 0px, #10336C 10px, #0C2C61 10px, #0C2C61 20px), linear-gradient(90deg, rgba(10,42,94,0.94) 0%, rgba(10,42,94,0.72) 100%)";
 
 const socialIcons = {
   instagram: (
@@ -23,23 +29,22 @@ const socialIcons = {
   ),
 };
 
-// No licensed photography exists yet (PDD risk register: "photography quality
-// below the premium standard undermines positioning more than any copy
-// decision"). This diagonal-stripe treatment is a deliberate placeholder,
-// not a bug — swap in premium Madrid/Spain photography before launch.
+// Without a photo uploaded via /admin/media, this falls back to a deliberate
+// diagonal-stripe placeholder (PDD risk register: "photography quality below
+// the premium standard undermines positioning more than any copy decision").
 export async function Hero() {
   const t = await getTranslations("hero");
   const tWa = await getTranslations("whatsapp");
 
   const points = t.raw("points") as string[];
+  const heroImage = getSetting(sectionImageSettingKey("hero"));
 
   return (
     <section
       id="top"
-      className="relative overflow-hidden bg-navy"
+      className="relative overflow-hidden bg-navy bg-cover bg-center"
       style={{
-        backgroundImage:
-          "repeating-linear-gradient(135deg, #10336C 0px, #10336C 10px, #0C2C61 10px, #0C2C61 20px), linear-gradient(90deg, rgba(10,42,94,0.94) 0%, rgba(10,42,94,0.72) 100%)",
+        backgroundImage: heroImage ? photoBackgroundStyle(heroImage) : PLACEHOLDER_BACKGROUND,
       }}
     >
       <div className="absolute inset-y-0 right-20 z-[2] hidden flex-col justify-center gap-4 nav:flex">

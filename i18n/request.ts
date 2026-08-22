@@ -1,5 +1,6 @@
 import { getRequestConfig } from "next-intl/server";
 import { defaultLocale, isLocale } from "@/lib/locale/config";
+import { getContent } from "@/lib/content/store";
 
 export default getRequestConfig(async ({ requestLocale }) => {
   const requested = await requestLocale;
@@ -7,6 +8,8 @@ export default getRequestConfig(async ({ requestLocale }) => {
 
   return {
     locale,
-    messages: (await import(`../messages/${locale}.json`)).default,
+    // DB-backed (seeded from messages/*.json) so admin content edits publish
+    // without a rebuild — see lib/content/store.ts.
+    messages: await getContent(locale),
   };
 });

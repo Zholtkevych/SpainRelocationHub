@@ -2,6 +2,9 @@ import { getTranslations } from "next-intl/server";
 import { ContactForm } from "@/components/sections/ContactForm";
 import { WhatsAppContactLink } from "@/components/sections/WhatsAppContactLink";
 import { siteConfig } from "@/lib/site-config";
+import { getSetting } from "@/lib/settings/store";
+import { sectionImageSettingKey } from "@/lib/settings/keys";
+import { photoBackgroundStyle } from "@/lib/media/background";
 
 const socialIcons = {
   instagram: (
@@ -26,21 +29,28 @@ const socialIcons = {
 export async function Contact() {
   const t = await getTranslations("contact");
   const tWa = await getTranslations("whatsapp");
+  const image = getSetting(sectionImageSettingKey("contact"));
 
   return (
-    <section id="contact" className="bg-surface-alt px-6 py-24">
+    <section
+      id="contact"
+      className={image ? "bg-navy bg-cover bg-center px-6 py-24" : "bg-surface-alt px-6 py-24"}
+      style={image ? { backgroundImage: photoBackgroundStyle(image) } : undefined}
+    >
       <div
         className="mx-auto grid max-w-6xl items-start gap-14"
         style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))" }}
       >
         <div>
           <h2
-            className="m-0 mb-5 font-heading font-normal text-navy"
+            className={`m-0 mb-5 font-heading font-normal ${image ? "text-white" : "text-navy"}`}
             style={{ fontSize: "clamp(30px, 4vw, 44px)", lineHeight: 1.1, letterSpacing: "-0.02em" }}
           >
             {t("h2")}
           </h2>
-          <p className="m-0 mb-9 max-w-lg text-[17px] leading-relaxed text-muted">{t("lead")}</p>
+          <p className={`m-0 mb-9 max-w-lg text-[17px] leading-relaxed ${image ? "text-[#C9D3E6]" : "text-muted"}`}>
+            {t("lead")}
+          </p>
 
           <div className="mb-7 flex flex-col gap-px border border-border bg-border">
             <a
@@ -74,7 +84,11 @@ export async function Contact() {
                 target="_blank"
                 rel="noopener"
                 aria-label={key}
-                className="flex h-12 w-12 items-center justify-center rounded-xl border border-border-input text-navy hover:border-navy hover:bg-navy hover:text-white"
+                className={
+                  image
+                    ? "flex h-12 w-12 items-center justify-center rounded-xl border border-white/30 text-white hover:border-gold hover:text-gold"
+                    : "flex h-12 w-12 items-center justify-center rounded-xl border border-border-input text-navy hover:border-navy hover:bg-navy hover:text-white"
+                }
               >
                 {socialIcons[key]}
               </a>

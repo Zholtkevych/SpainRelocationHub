@@ -1,7 +1,6 @@
 import { NextIntlClientProvider } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
-import { Onest, Source_Serif_4 } from "next/font/google";
 import { locales, isLocale } from "@/lib/locale/config";
 import { siteConfig } from "@/lib/site-config";
 import { organizationJsonLd } from "@/lib/seo/jsonld";
@@ -10,21 +9,8 @@ import { Footer } from "@/components/layout/Footer";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { CookieConsentBanner } from "@/components/CookieConsentBanner";
 import { LeadSelectionProvider } from "@/components/LeadSelectionProvider";
+import { onest, sourceSerif4 } from "@/lib/fonts";
 import "../globals.css";
-
-const onest = Onest({
-  subsets: ["latin", "latin-ext", "cyrillic", "cyrillic-ext"],
-  weight: ["300", "400", "500", "600"],
-  variable: "--font-onest",
-  display: "swap",
-});
-
-const sourceSerif4 = Source_Serif_4({
-  subsets: ["latin", "latin-ext", "cyrillic", "cyrillic-ext"],
-  weight: ["500", "600", "700"],
-  variable: "--font-source-serif",
-  display: "swap",
-});
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
