@@ -78,7 +78,7 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
         heading={tVehicles("h2")}
         items={tVehicles.raw("items") as Item[]}
         minItemWidth={300}
-        cta={{ label: consultLabel, service: "vehicles", variant: "outline" }}
+        cta={{ label: consultLabel, service: "vehicles" }}
         consultLabel={consultLabel}
       />
 
@@ -105,7 +105,7 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
         items={tInsurance.raw("items") as Item[]}
         itemStyle="rule"
         minItemWidth={230}
-        cta={{ label: consultLabel, service: "insurance", variant: "outline" }}
+        cta={{ label: consultLabel, service: "insurance" }}
         consultLabel={consultLabel}
       />
 
