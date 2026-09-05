@@ -121,6 +121,14 @@ export async function Footer() {
         <div className="flex flex-wrap justify-between gap-5 pt-7 text-[13px] text-[#93A2BF]">
           <div>© {year} Spain Relocation Hub</div>
           <div>{t("footer.rights")}</div>
+          <a
+            href={siteConfig.builtBy.url}
+            target="_blank"
+            rel="noopener"
+            className="hover:text-white"
+          >
+            {t("footer.builtBy")} {siteConfig.builtBy.name}
+          </a>
         </div>
       </div>
     </footer>

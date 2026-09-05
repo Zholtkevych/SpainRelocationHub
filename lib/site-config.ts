@@ -13,4 +13,8 @@ export const siteConfig = {
     facebook: "https://www.facebook.com/Olga.rieltor.madrid",
     linkedin: "https://www.linkedin.com/in/olha-mazurchuk/",
   },
+  builtBy: {
+    name: "LucrumTech",
+    url: "https://lucrumtech.com",
+  },
 } as const;
