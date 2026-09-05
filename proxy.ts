@@ -9,6 +9,10 @@ const intlProxy = createMiddleware(routing);
 
 const LOCALE_COOKIE = "NEXT_LOCALE";
 
+// Reachable without a session — the whole point of the reset flow is
+// recovering access when you don't have one.
+const PUBLIC_ADMIN_PATHS = ["/admin/login", "/admin/forgot-password", "/admin/reset-password"];
+
 /**
  * Next.js 16 renamed middleware.ts to proxy.ts (function export `proxy`,
  * Node runtime only — see node_modules/next/dist/docs/.../proxy.md).
@@ -26,7 +30,7 @@ export function proxy(request: NextRequest) {
   // session cookie — skip next-intl entirely for this branch so it doesn't
   // try to locale-redirect /admin/*.
   if (pathname.startsWith("/admin")) {
-    if (pathname === "/admin/login") {
+    if (PUBLIC_ADMIN_PATHS.includes(pathname)) {
       return NextResponse.next();
     }
     const token = request.cookies.get(SESSION_COOKIE)?.value;

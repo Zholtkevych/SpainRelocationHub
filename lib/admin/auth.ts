@@ -1,9 +1,12 @@
 import crypto from "node:crypto";
+import { verifyPasswordHash } from "@/lib/admin/password";
+import { getAdminUserByEmail, seedAdminUserIfEmpty } from "@/lib/admin/users";
 
-// Single-admin auth (SAD's Identity module scoped down for today: one
-// operator, no roles, no TOTP — a real gap versus the SAD, acceptable for a
-// first working admin panel). Session is a signed, expiring token in an
-// httpOnly cookie; verified in proxy.ts before any /admin page renders.
+// Scoped-down auth versus the SAD's full Identity module: any number of
+// admin_users rows can coexist (see lib/admin/users.ts), but there are no
+// roles/permissions — every account has identical access, and there's no
+// TOTP. Session is a signed, expiring token in an httpOnly cookie; verified
+// in proxy.ts before any /admin page renders.
 
 export const SESSION_COOKIE = "srh_admin_session";
 const SESSION_TTL_MS = 12 * 60 * 60 * 1000; // 12 hours
@@ -40,18 +43,15 @@ export function verifySessionToken(token: string | undefined): boolean {
   return Number.isFinite(expiresAt) && Date.now() < expiresAt;
 }
 
-export function checkPassword(candidate: string): boolean {
-  const expected = process.env.ADMIN_PASSWORD;
-  if (!expected) return false;
+export function verifyCredentials(email: string, password: string): boolean {
+  // Credentials live in the admin_users table, not env vars — that's what
+  // makes self-service password reset possible (see lib/admin/users.ts).
+  // Seeding is idempotent and cheap (a COUNT query when the table already
+  // has a row), so it's safe to call on every login attempt rather than
+  // requiring a separate startup step.
+  seedAdminUserIfEmpty();
 
-  const expectedBuf = Buffer.from(expected);
-  const candidateBuf = Buffer.from(candidate);
-
-  if (candidateBuf.length !== expectedBuf.length) {
-    // Burn comparable time so a mismatched length doesn't return early.
-    crypto.timingSafeEqual(expectedBuf, expectedBuf);
-    return false;
-  }
-
-  return crypto.timingSafeEqual(candidateBuf, expectedBuf);
+  const user = getAdminUserByEmail(email);
+  if (!user) return false;
+  return verifyPasswordHash(password, user.password_hash);
 }

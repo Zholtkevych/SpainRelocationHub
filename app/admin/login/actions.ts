@@ -2,15 +2,16 @@
 
 import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
-import { checkPassword, createSessionToken, SESSION_COOKIE } from "@/lib/admin/auth";
+import { createSessionToken, SESSION_COOKIE, verifyCredentials } from "@/lib/admin/auth";
 
 export type LoginState = { error?: string };
 
 export async function loginAction(_prevState: LoginState | undefined, formData: FormData): Promise<LoginState> {
+  const email = String(formData.get("email") ?? "").trim();
   const password = String(formData.get("password") ?? "");
 
-  if (!checkPassword(password)) {
-    return { error: "Incorrect password." };
+  if (!email || !password || !verifyCredentials(email, password)) {
+    return { error: "Incorrect email or password." };
   }
 
   const cookieStore = await cookies();
