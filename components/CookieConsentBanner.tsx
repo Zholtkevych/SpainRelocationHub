@@ -2,18 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { useTranslations } from "next-intl";
-
-const CONSENT_COOKIE = "srh_cookie_consent";
-
-function readConsent(): "accepted" | "rejected" | null {
-  if (typeof document === "undefined") return null;
-  const match = document.cookie.match(new RegExp(`${CONSENT_COOKIE}=([^;]+)`));
-  return (match?.[1] as "accepted" | "rejected" | undefined) ?? null;
-}
-
-function writeConsent(value: "accepted" | "rejected") {
-  document.cookie = `${CONSENT_COOKIE}=${value}; path=/; max-age=31536000; samesite=lax`;
-}
+import { readConsent, writeConsent } from "@/lib/analytics/consent";
 
 export function CookieConsentBanner() {
   const t = useTranslations("cookies");

@@ -8,6 +8,7 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { CookieConsentBanner } from "@/components/CookieConsentBanner";
+import { GoogleTagManager } from "@/components/GoogleTagManager";
 import { LeadSelectionProvider } from "@/components/LeadSelectionProvider";
 import { onest, sourceSerif4 } from "@/lib/fonts";
 import "../globals.css";
@@ -70,6 +71,7 @@ export default async function LocaleLayout({
       className={`${onest.variable} ${sourceSerif4.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-surface text-ink">
+        <GoogleTagManager />
         <NextIntlClientProvider>
           <script
             type="application/ld+json"
