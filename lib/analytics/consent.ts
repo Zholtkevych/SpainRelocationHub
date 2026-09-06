@@ -1,4 +1,4 @@
-// Shared between CookieConsentBanner.tsx (writes) and GoogleTagManager.tsx
+// Shared between CookieConsentBanner.tsx (writes) and GoogleAnalytics.tsx
 // (reads, and reacts live via the custom event below) — kept in one place
 // so both agree on the cookie name and value shape.
 
@@ -15,8 +15,8 @@ export function readConsent(): ConsentValue | null {
 
 export function writeConsent(value: ConsentValue) {
   document.cookie = `${CONSENT_COOKIE}=${value}; path=/; max-age=31536000; samesite=lax`;
-  // Lets an already-mounted GoogleTagManager component react immediately
-  // (e.g. load GTM the instant "Accept" is clicked) instead of only ever
-  // checking consent once on mount.
+  // Lets an already-mounted GoogleAnalytics component react immediately
+  // (e.g. load gtag.js the instant "Accept" is clicked) instead of only
+  // ever checking consent once on mount.
   window.dispatchEvent(new CustomEvent(CONSENT_CHANGED_EVENT, { detail: value }));
 }

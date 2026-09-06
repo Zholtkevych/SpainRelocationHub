@@ -5,14 +5,16 @@ import { buildWhatsAppHref } from "@/lib/lead/whatsapp";
 
 declare global {
   interface Window {
-    dataLayer?: Array<Record<string, unknown>>;
+    dataLayer?: unknown[];
   }
 }
 
+// gtag() (declared in GoogleAnalytics.tsx) is only defined once consent is
+// given and the script has loaded — this is a no-op before that, not an
+// error, so it's safe to call from every WhatsApp link unconditionally.
 export function trackWhatsAppClick(locale: string) {
   if (typeof window === "undefined") return;
-  window.dataLayer = window.dataLayer ?? [];
-  window.dataLayer.push({ event: "whatsapp_click", lang: locale });
+  window.gtag?.("event", "whatsapp_click", { language: locale });
 }
 
 export function WhatsAppButton() {
